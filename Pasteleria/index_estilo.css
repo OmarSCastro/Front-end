@@ -1,0 +1,26 @@
+body{
+    background-image: url(./img/fondo3.jpg);
+    background-size: 500px;
+}
+h1{
+    font-size: 100px;
+    position: absolute;
+    font-weight: bold;
+    top: 10%;
+    left: 40%;
+}
+button{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-wei    ght: bold;
+    background-color:black;
+    color: aliceblue;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    top:45%;
+    left: 45%; 
+}
