@@ -1,0 +1,278 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: grey;
+}
+
+/* Comienzan estilos del header */
+
+.boton{
+    border-radius: 2px;
+    background-color: rgb(68, 0, 255);
+    border-color: rgb(68, 0, 255);
+    color: aliceblue;
+    width: 130px;
+    height: 50px;
+    font-size:medium;
+}
+
+.divheader2{
+    position: absolute;
+    width: 51.75%;
+    height: 110px;
+    background-color:rgb(191, 255, 252);
+    top: 0;
+    right: 10px;
+}
+
+
+
+.colortitulos {
+  color: blue;
+}
+
+.tituloheader {
+  position: relative;
+  top: 20px;
+  left: 80px;
+}
+
+.acomodoheader {
+  position: absolute;
+  top: 50px;
+}
+
+.acomodoheader1{
+    right: 730px;
+    color: black;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+.acomodoheader2{
+    right: 600px;
+    color: black;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+.acomodoheader3{
+    right: 480px;
+    color: black;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+.acomodoheader4{
+    right: 320px;
+    color: black;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+.acomodoheader5{
+    position: absolute;
+    top: 35px;
+    right: 120px;
+    color: black;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+header {
+  
+  background-color: white;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+/*Comienzan estilos de la primera seccion*/
+
+.section1 {
+  width: 550px;
+  height: 550px;
+  background-color:white;
+  position: absolute;
+  left: 100px;
+  top: 110px;
+}
+
+.colorazul{
+    color: darkblue;
+}
+
+.textonegro{
+    color:black;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.tamaniotitulo {
+  font-size: 50px;
+  font-weight:800;
+  position: relative;
+  top: 50px;
+}
+
+.textosection1{
+    font-weight:bold;
+    font-size: 15px ;
+}
+
+.imagenseccion {
+  position: absolute;
+  top: 110px;
+  right: 0px;
+  width: 700px;
+  height: 550px;
+}
+
+.tamanioicono2{
+    width: 30px;
+    height: 30px;
+}
+
+.tamanioh5{
+    color: darkblue;
+}
+
+.tamanioicono1{
+    width: 20px;
+    height: 20px;
+}
+
+.tamanioicono3{
+    width: 15px;
+    height: 15px;
+}
+
+.infodiv1{
+    background-color:white;
+    position: absolute;
+    bottom: 10px;
+    width: 700px;
+    height: 100px;
+    bottom: 1px;
+    left: 180px;
+    opacity: 80%;
+    box-shadow:  0px 0px 10px 0px blue inset;
+}
+
+.textoanunciosection1{ 
+    font-size: 15px;
+    color: black;
+}
+
+.positionbottom{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+
+.divtabla1{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+
+.positiontexttable1{
+    text-align:right;
+}
+
+.positiontabla1mensaje{
+    position: absolute;
+    top: 10px ;
+    left: 200px;
+}
+
+.positiontabla1mensaje2{
+    position: absolute;
+    top: 10px ;
+    left: 350px;
+}
+
+.psotitionmensaje1{
+    color:darkblue;
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+}
+
+.psotitionmensaje2{
+    color:darkblue;
+    position: absolute;
+    bottom: 5px;
+    left: 220px;
+}
+
+.psotitionmensaje3{
+    color:darkblue;
+    position: absolute;
+    bottom: 5px;
+    left: 380px;
+}
+
+/*AQUI EMPIEZA LA SECCION DOS*/
+
+.section2{
+    position: relative;
+    left:70px;
+    width: 90%;
+    height:150px ;
+    background-color:white;
+    top:650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tamanioimg1{
+    width: 230px;
+    height: 100px;
+}
+
+/*AQUI EMPIEZA LA SECCION 3*/
+
+.section3{
+    background-color: white;
+    position: absolute;
+    width: 45%;
+    height: 130px;
+    top: 880px;
+    left: 100px;
+
+}
+
+.titulosection3{
+    font-size: 35px;
+}
+
+/*COMIENZAN ESTILOD DE SECTION 4*/
+
+.section4{
+    position: absolute;
+    width: 80%;
+    height: 180px;
+    background-color: white;
+    top: 1150px;
+    left: 10%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.psection4{
+    font-size: 12px;
+    font-weight: normal;
+    color:gray;
+}
+
+
+
+
+/*COMIENZAN ESTILOS DEL FOOTER*/
+
+footer{
+    background-color: grey;
+}
+
