@@ -1,0 +1,104 @@
+body{
+    background-image: url('./img/pokedex.jpg');
+    background-repeat: no-repeat;
+}
+
+.section1{
+    background-color: white;
+    border-color: white;
+    width: 475px;
+    height: 225px;
+    border-radius: 10% 10% 10% 10%;
+    position: relative;
+    top: 310px;
+    left: 123px;
+}
+
+.ptitulo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imagen{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 15px;
+    top: 40px;
+}
+
+.bottom{
+    border-radius: 100%;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 630px;
+    left: 115px;
+    background-color: gray;
+    border-color: aqua;
+    
+}
+
+.inputtype{
+    position: absolute;
+    top: 703px;
+    left: 215px;
+    width: 200px;
+    height: 93px;
+    border-radius: 10%;
+    background-color: green;
+    border-color: green;
+    font-size: 35px;
+}
+
+
+.nombrePokemon{
+    position: absolute;
+    top: 310px;
+    left: 160px;
+}
+
+
+.mostrar{
+    position: absolute;
+    top: 1000px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
+
+.tipoPokemon{
+    position: absolute;
+    top: 320px;
+    left: 350px;
+}
+
+.estadisticaPokemon{
+    position: absolute;
+    left: 350px;
+    top:380px
+}
+
+.movimientosPokemon{
+    position: absolute;
+    left: 350px;
+    top:450px;
+}
+
+.movimiento{
+    position: absolute;
+    left: 350px;
+    top: 475px;
+}
+
+.estadistica{
+    position: absolute;
+    left: 350px;
+    top: 405px;
+}
+
+.tipo{
+    position: absolute;
+    left: 350px;
+    top: 345px;
+}
