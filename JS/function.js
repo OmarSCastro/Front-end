@@ -15,8 +15,9 @@ const fetchPokemon = () =>{
         console.log(data);
         let  pokemon_imagen = data.sprites.front_default;
         let pokemon_tipo = data.types[0].type.name;
-        let pokemon_movimiento  = data.moves[0].move.name;
-        let pokemon_estadistica = data.stats[0].stat.name;
+        let pokemon_movimiento = data.abilities.map(elemento => elemento.ability.name)
+        let pokemon_estadistica = data.stats.map(elemento => elemento.stat.name);
+        console.log(pokemon_estadistica);
         estadisticasPokemon(pokemon_estadistica);
         pokeMovimientos(pokemon_movimiento );
         pokeImage(pokemon_imagen);
